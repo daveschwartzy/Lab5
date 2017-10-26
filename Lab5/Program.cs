@@ -53,7 +53,7 @@ namespace Lab5
             string repeat = Console.ReadLine().ToLower();
             if (repeat == "yes" || repeat == "y" || repeat == "yeah" || repeat == "yep")
             {
-                
+
             }
             else
             {
@@ -82,10 +82,8 @@ namespace Lab5
         public static int Roll(int n)
         {
             int result = RollDie.Next(1, n + 1);
-                return result;
-        }
-
-
+            return result;
         }
     }
+}
 
